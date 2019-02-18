@@ -291,14 +291,6 @@ $ hexo new page categories
 
 and adding `type: categories` to the front-matter of `source/categories/index.md`. 
 
-Finally, don't forget to create a link to these pages, for example in the navigation menu:
-
-```yml
-nav:
-  tags: /tags/
-  categories: /categories/
-```
-
 
 ### Local search
 
