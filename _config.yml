@@ -12,28 +12,29 @@ projects_url: https://github.com/pwxcoo
 # navigation menu. Optionally, you can add translations for the 'Key' in
 # languages/*.yml
 nav:
-  home: /  
+  home: /
   Archives: /archives/
-  Algorithm: /algorithm/
+  Toc: /toc/
   # projects: https://github.com/pwxcoo
-  Tool: /tool/
-  Gist: /gist/
+  # Gist: /gist/
   about: /about/
 
 
 # Links to your social media accounts.
-# The keys should correspond to Fontawesome icon names 
+# The keys should correspond to Fontawesome icon names
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
   github: https://github.com/pwxcoo
   weibo: https://weibo.com/u/2323235683
-  # twitter: /
+  telegram: https://t.me/pwxcoo
+  twitter: https://twitter.com/pwxcoo
   # facebook: /
   stack-overflow: https://stackoverflow.com/users/9936763/pwxcoo?tab=profile
   instagram: https://www.instagram.com/pwxcoo/
-  # linkedin: 
+  # linkedin:
   mail: mailto:pwxcoo@gmail.com
+
 
 
 # Customize the overview with the most recent blog posts on the index page.
@@ -72,7 +73,7 @@ logo:
 # Options:
 #   - url: where the icon can be found
 #   - gravatar: whether to create a favicon from your Gravatar
-favicon: 
+favicon:
   desktop:
     url: /images/favicon.ico
     gravatar: false
@@ -104,7 +105,7 @@ page_width: 60
 rss: atom.xml
 
 # Turn your web pages into graph objects (see http://ogp.me).
-open_graph: 
+open_graph:
   fb_app_id:
   fb_admins:
   twitter_id:
@@ -116,12 +117,12 @@ open_graph:
 ##############################################################################
 
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
-disqus: 
+disqus:
   enabled: true
   shortname: pwxcoo
 
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
-google_analytics: 
+google_analytics:
   enabled: true
   id: UA-123052529-1
 
